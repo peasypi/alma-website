@@ -276,7 +276,7 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 1.4rem;
 }
 
@@ -290,7 +290,7 @@ h6,
 .stat,
 .btn,
 .no-results {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 h1,
@@ -349,6 +349,12 @@ li {
 
 .right {
     text-align: right;
+}
+
+.back_to_good {
+    margin-top: 50px;
+    margin-left: 2px;
+    color: rgba(0, 0, 0, 0.5) !important;
 }
 
 /* 
@@ -861,10 +867,13 @@ input.dirty:invalid+.switch__slider {
 .columns {
     display: flex;
     flex-wrap: wrap;
+    text-align: right;
 }
 
 .columns .column {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .columns--x2,
@@ -1126,14 +1135,14 @@ body {
 .footer--primary {
     color: white;
     background-color: #1c1c1c;
-    padding: 3rem 0 0;
+    padding: 2rem 0 0;
     margin-top: 3rem;
 }
 
 @media screen and (min-width: 740px) {
     .footer--primary {
-        padding: 6rem 0 4rem;
-        margin-top: 6rem;
+        padding: 2rem 0 1rem;
+        margin-top: 2rem;
     }
 }
 
@@ -1157,7 +1166,26 @@ body {
 /* 968 / 740 */
 
 .logo {
-    opacity: 1.0;
+    opacity: 0.9;
     background-color: transparent;
     width: 300px;
+}
+
+.insta {
+    opacity: 0.5;
+    width: 30px;
+    align-self: flex-end
+}
+
+.insta-column {
+    display: flex;
+    align-items: flex-end;
+}
+
+.centered {
+    text-align: center;
+}
+
+.impressum {
+    margin-bottom: 100px;
 }
