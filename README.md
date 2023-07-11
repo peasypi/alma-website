@@ -1,10 +1,3 @@
-# crowdfunding-template
-A minimal HTML template for a crowdfunding page
+# website cafe alma leipzig
 
-### TODO
-- [x] Form validation styles
-- [x] Reward sets and limits 'amount' field
-- [x] Thank you modal
-- [ ] Pagniation / Load more?
-- [ ] Email template?
-- [ ] Description gallery module?
+template from: https://github.com/mattbrailsford/crowdfunding-template
