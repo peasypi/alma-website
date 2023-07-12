@@ -1067,13 +1067,6 @@ body {
     color: #9dc8ad;
 }
 
-.footer--secondary {
-    color: rgba(255, 255, 255, .5);
-    background-color: #111;
-    padding: 2rem 0;
-    line-height: 1.5rem;
-}
-
 /* 968 / 740 */
 
 .logo {
